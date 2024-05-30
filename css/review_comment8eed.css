@@ -1,0 +1,356 @@
+.read-assess-form {
+  margin-top: 10px;
+}
+.read-assess .textarea {
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+.read-assess-form textarea {
+  background-color: #fff;
+  border-radius: 4px 4px 0 0;
+  border: none;
+  color: #666;
+  height: 67px;
+  padding: 10px;
+  width: 100%;
+}
+.read-assess .textarea-bottom {
+  border-top: 1px solid #bdbdbd;
+  font-size: 0;
+  padding: 11px 10px;
+}
+.clearfix {
+  display: block;
+}
+.read-assess .send-img {
+  color: #2f80ed;
+  font-size: 14px;
+  line-height: 20px;
+  width: 65%;
+}
+
+.read-assess .send-img i {
+  margin: -3px 4px 0 0;
+}
+.icondetail-camera {
+  background-position: -265px -75px;
+  height: 16px;
+  width: 20px;
+}
+[class^="icondetail-"], [class*="icondetail-"] {
+  background-image: url(../../cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/TGDD/Mobile/icon_chitiet%402x-min5e1f.png?v=2);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-size: 300px 180px;
+}
+
+.read-assess .mintext {
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  width: 35%;
+}
+.read-assess .send-img, .read-assess .mintext {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.read-assess .resRtImg {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 5px -10px -7px;
+}
+.select-star {
+  display: flex;
+  margin: 20px 0 15px;
+}
+.read-assess .txt01 {
+  /* width: 270px; */
+}
+.read-assess .ul-star {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  width: 270px;
+}
+.read-assess .ul-star li {
+  cursor: pointer;
+  margin: 0 6px;
+  text-align: center;
+  width: 45px;
+}
+.icondetail-sltstar {
+  background-position: -185px -75px;
+  height: 28px;
+  width: 29px;
+}
+
+.read-assess .txt-agree {
+  cursor: pointer;
+  line-height: 20px;
+  margin: 15px 0;
+  position: relative;
+  padding-left: 22px;
+}
+.read-assess .txt-agree span {
+  border: 1px solid #666;
+  border-radius: 3px;
+  display: inline-block;
+  left: 0;
+  height: 16px;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+}
+
+.list-input {
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.submit-assess {
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 11px 10px;
+  width: 215px;
+  text-align: center;
+}
+
+.icondetail-sltstar.active {
+  background-position: -225px -75px;
+  height: 28px;
+  width: 29px;
+}
+
+.read-assess .ul-star p.active-slt {
+  color: #fe8c23;
+  font-weight: bold;
+}
+.read-assess .ul-star p {
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 8px;
+}
+
+.input-assess {
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  color: #666;
+  height: 40px;
+  line-height: 20px;
+  margin-right: 12px;
+  padding: 10px;
+  /* width: 215px; */
+  margin-bottom: 20px;
+}
+.hide {
+  display: none !important;
+}
+
+ 
+
+.read-assess .resRtImg li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.read-assess .resRtImg li img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.list-input{
+  display: flex;
+}
+.read-assess .resRtImg li span {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  background-color: #fff;
+  display: block;
+  color: #288ad6;
+}
+
+@media (min-width: 576px){
+  .modal-dialog {
+      max-width: 698px !important;
+      margin: 1.75rem auto;
+  }
+}
+
+.fbDelImg{
+  cursor: pointer;
+}
+
+.boder-error {
+  border: 1px solid rgb(231, 80, 90)  !important;
+}
+
+
+.form-control.textbox-error {
+  color: #F72809;
+  border: 1px solid #F72809;
+}
+
+.text-danger {
+  color: #F72809;
+}
+
+.hide{
+  display: none;
+}
+
+
+.comment__item {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px 0;
+}
+
+.comment .txtname {
+  font-weight: bold;
+  margin-right: 8px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+
+.comment .item-rate {
+  margin-top: 5px;
+}
+
+.comment-star, .intro-future {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.comment-content {
+  margin-top: 10px;
+}
+
+.comment-content .cmt-txt {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.comment-label {
+  font-size: 0;
+  margin-top: 10px;
+}
+
+.comment-label span {
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 16px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 2px 8px;
+  font-weight: 600;
+}
+
+.comment__item .support {
+    background-color: #e8f1fb;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 5px;
+    padding: 8px 10px;
+    position: relative;
+}
+.comment__item .support::before {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid #e8f1fb;
+  content: '';
+  left: 5px;
+  position: absolute;
+  top: -6px;
+  z-index: -1;
+}
+
+.icondetail-logoblue {
+  background-position: -225px -20px;
+  height: 15px;
+  width: 15px;
+}
+.box-border {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px 15px 20px;
+}
+
+.div_send_binh_luan{
+  text-align: center;
+}
+
+.icondetail-logoblue{
+  background-image: url("../img/logo_2.html");
+}
+
+ [class^="modal_comment_icon"], [class*="modal_comment_icon "] {
+  background-image: url(../../cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/DMX/Global/Desktop/icon_common%402x3860.png?v=1);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  background-size: 300px 250px;
+}
+
+ [class^="modal_comment_icon "],  [class*="modal_comment_icon "] {
+  background-image: url(../../cdn.tgdd.vn/mwgcart/mwg-site/ContentMwg/images/DMX/Global/Desktop/icon_common%402x_13860.png?v=1);
+  background-size: 300px 280px;
+}
+
+
+.icon-star {
+  background-position: -205px -60px;
+  height: 12px;
+  width: 13px;
+}
+
+.icon-star-dark {
+  background-position: -225px -60px;
+  height: 12px;
+  width: 13px;
+}
+
+
+
+.comment-content .cmt-img {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 10px;
+  vertical-align: top;
+}
+.comment-content .cmt-img img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.darkred{
+  color: #fff  !important;
+}
+
+ul {
+  list-style-type: none;
+}

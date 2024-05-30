@@ -1,0 +1,28 @@
+.plus ,.minus {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.plus,.minus {
+    background: #7F2B81;
+    pointer-events : all;
+}
+
+.coupon_radio{
+    width: 5% !important;
+}
+
+.list_giam_gia{
+    margin-top: 20px;
+}
+
+
+.disabled_radio {
+    pointer-events:none;
+    opacity:0.5;
+  }

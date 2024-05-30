@@ -1,0 +1,103 @@
+ 
+#search-result {
+    position: absolute;
+    top: 53px;
+    z-index: 10;
+    width: 400px;
+    left: 0;
+    display: none;
+}
+#search-result .suggest_search {
+    max-height: 480px;
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #eee;
+    top: -24px;
+    z-index: 100000;
+    left: 2px;
+    right: 2px;
+    border-radius: 6px;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+}
+#search-result .suggest_search li.ttitle {
+    position: relative;
+}
+#search-result .suggest_search li {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+#search-result .suggest_search li a {
+    color: #3b7adb;
+    font-size: 12px;
+    margin: 0 5px 0;
+    display: block;
+}
+.search-input {
+    position: relative;
+}
+.suggest_search:before, #search-result .suggest_search:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 30%;
+    border-bottom: 10px solid #eee;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+#search-result .suggest_search:after {
+    border-width: 8px;
+    border-bottom-color: #f5f5f5;
+    margin-left: 2px;
+}
+
+#search-result .suggest_search li .viewed {
+    background: #f5f5f5;
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    padding: 15px;
+    margin: -15px -10px;
+}
+
+#search-result .suggest_search li.product_suggest a .item-img {
+    float: left;
+    width: 60px;
+    height: auto;
+    margin: 0 6px 0 0;
+}
+#search-result .suggest_search li.product_suggest a .item-img img {
+    width: 100%;
+}
+#search-result .suggest_search li.product_suggest a .item-info {
+    float: left;
+    width: calc(100% - 66px);
+}
+#search-result .suggest_search li.product_suggest a h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #333;
+    font-size: 14px;
+    overflow: hidden;
+}
+#search-result .suggest_search li.product_suggest a .price {
+    font-size: 14px;
+    color: red;
+    float: none;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+#search-result .suggest_search li.product_suggest a .price.twoprice {
+    display: block;
+    font-weight: normal;
+    font-size: 13px;
+    padding-top: 3px;
+}
+#search-result ul {
+     padding-left: 0; 
+}
